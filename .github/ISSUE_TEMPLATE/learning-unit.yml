@@ -1,0 +1,36 @@
+name: Learning unit
+description: Plan a theory-to-implementation learning unit
+title: "[UNIT] "
+labels: ["learning", "curriculum"]
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Learning objective
+      description: State an observable capability.
+    validations:
+      required: true
+  - type: textarea
+    id: theory
+    attributes:
+      label: Theory and references
+    validations:
+      required: true
+  - type: textarea
+    id: implementation
+    attributes:
+      label: Implementation tasks
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Experiments and tests
+    validations:
+      required: true
+  - type: textarea
+    id: challenge
+    attributes:
+      label: Independent challenge
+    validations:
+      required: true
